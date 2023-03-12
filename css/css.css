@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  height: 15%;
+  width: 15%;
+}
+
+body {
+  height: 100vh;
+  background: url(../../picture/back1.png) no-repeat; /*no-repeat无平埔*/
+  background-size: cover; /*缩放背景图片以完全覆盖背景区，可能背景图片部分看不见*/
+}
+
+ul,
+ol {
+  list-style: none;
+  font-family: "楷体", "楷体_GB2312";
+}
+
+a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none; /*去除链接下方下划线*/
+  transition: all 0.3s ease-in-out;
+}
+
+div.content {
+  position: relative;
+  top: 1%;
+  left: 1%;
+  width: 98%;
+  height: auto;
+  margin-bottom: 1%;
+
+  list-style: none;
+
+  background-color: rgba(9, 9, 9, 0.6);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.8);
+}
