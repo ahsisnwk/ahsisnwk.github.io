@@ -5,6 +5,23 @@ h6{
     font-size: 0.1vw;
 }
 
+.text>.about_us>.content>.tetil>h2{
+    text-align: center;
+    font-size: 5vh;
+}
+
+h2{
+    font-size: 1vw;
+}
+
+.about_us ul{
+    font-size: 2vw;
+}
+
+.about_us li{
+    font-size: 1.5vw;
+}
+
 .text p{
     font-size: 1.5vw;
 }
